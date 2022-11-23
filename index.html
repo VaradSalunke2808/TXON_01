@@ -11,22 +11,59 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css"
+      integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
+    <i class="fa-solid fa-clock-three"></i>
     <div class="navbar">
       <span class="hamburger">
         <i class="fa-sharp fa-solid fa-bars"></i>
 
-          <object class="uber" data="./images/97c43f8974e6c876.svg"></object>
-
-
+        <object class="uber" data="./images/97c43f8974e6c876.svg" ></object>
       </span>
 
       <div>
         <button class="click2"><i class="fa-solid fa-user"></i>Log in</button>
         <button class="click1">Sign up</button>
       </div>
+    </div>
+
+    <div class="mid-content">
+      <h1>Order food to your door</h1>
+      <div class="container">
+        <span class="input-address">
+          <a
+            href="https://www.google.com/maps/place/VED+HEIGHTS,+Medankarwadi,+Maharashtra+410501/@18.7477028,73.866223,
+            17z/data=!4m13!1m7!3m6!1s0x3bc2c992587b246b:0x6182541fec952356!2sVED+HEIGHTS,+Medankarwadi,
+            +Maharashtra+410501!3b1!8m2!3d18.747847!4d73.868186!3m4!1s0x3bc2c992587b246b:0x6182541fec952356!8m2!3d18.747847!4d73.868186"
+            ><i class="fa-sharp fa-solid fa-location-dot"></i
+          ></a>
+
+          <input
+            class="address"
+            type="text"
+            placeholder="Enter delivery address"
+          />
+        </span>
+        <span class="selector">
+          <select class="deliver" name="">
+            <option id="now" value="deliver">Deliver now</option>
+            <option id="later" value="time">Schedule for later</option>
+          </select>
+        </span>
+
+        <button class="food">Find Food</button>
+      </div>
+      <p class="line">
+        <a class="sign-in">Sign In</a> for your recent addresses
+      </p>
     </div>
   </body>
 </html>
