@@ -52,15 +52,13 @@ body {
   font-size: x-large;
   padding: 0;
 }
-.hamburger i:hover
-{
+.hamburger i:hover {
   cursor: pointer;
 }
 
-.hamburger object:hover{
+.hamburger object:hover {
   cursor: pointer;
 }
-
 
 .hamburger i {
   height: 20px;
@@ -81,24 +79,23 @@ h1 {
   color: rgb(223, 221, 221);
 }
 
-.container{
-display: inline;
+.container {
+  display: inline;
   margin-top: 45px;
   width: 100%;
-  padding:0px 50px;
+  padding: 0px 50px;
 }
 
-.input-address{
- align-items: center;
+.input-address {
+  align-items: center;
   background-color: #fff;
-
-padding: 20px 20px;
+  padding: 20px 20px;
 }
-.input-address i{
+.input-address i {
   font-size: 20px;
   margin-right: 5px;
 }
-.input-address i:hover{
+.input-address i:hover {
   cursor: pointer;
 }
 
@@ -107,19 +104,18 @@ padding: 20px 20px;
   border: none;
   height: 45px;
   width: 475px;
-   margin-left: 0px;
-   font-size: 15px;
-   font-weight: 500;
+  margin-left: 0px;
+  font-size: 15px;
+  font-weight: 500;
 }
-.selector{
+.selector {
   margin-left: 8px;
   background-color: #fff;
   width: 100%;
   padding: 20px 10px;
   overflow: hidden;
-
 }
-.deliver{
+.deliver {
   outline: none;
   border: none;
 
@@ -127,8 +123,7 @@ padding: 20px 20px;
   font-weight: lighter;
 }
 
-.food{
-
+.food {
   margin-left: 8px;
   background-color: #000;
   width: auto;
@@ -141,22 +136,22 @@ padding: 20px 20px;
   font-size: 20px;
   font-weight: lighter;
 }
-.food:hover{
+.food:hover {
   background-color: rgb(36, 36, 36);
   cursor: pointer;
 }
-#now{
+#now {
   background-color: #fff;
   width: 100%;
   padding: 20px 10px;
 }
-#later{
+#later {
   background-color: #fff;
   width: 100%;
   padding: 20px 10px;
 }
 
-.line{
+.line {
   margin-left: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -164,17 +159,9 @@ padding: 20px 20px;
   color: #fff;
 }
 
-.sign-in{
+.sign-in {
   text-decoration: underline;
 }
-.sign-in:hover{
+.sign-in:hover {
   cursor: pointer;
 }
-
-/* .selector select{
-  width: 380px;
-  height: 70px;
-  background-color: #fff;
-  border: none;
-  padding-top: 15px;
-} */
