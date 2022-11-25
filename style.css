@@ -2,6 +2,7 @@ body {
   background-image: url("./images/top-view-indian-food-frame-with-copy-space.jpg");
   background-size: 100%;
   margin: 0;
+  background-repeat: no-repeat;
 }
 .click1 {
   width: auto;
@@ -48,9 +49,13 @@ body {
 .hamburger {
   display: flex;
   align-items: center;
-  font-weight: bold;
-  font-size: x-large;
-  padding: 0;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+.hamburger object {
+  margin-top: 7px;
 }
 .hamburger i:hover {
   cursor: pointer;
@@ -62,9 +67,9 @@ body {
 
 .hamburger i {
   height: 20px;
+  font-weight: 600;
   margin: -5px 30px;
-
-  width: 20px;
+  width: 25px;
 }
 .fa-user {
   padding-right: 5px;
@@ -90,6 +95,9 @@ h1 {
   align-items: center;
   background-color: #fff;
   padding: 20px 20px;
+}
+.input-address a {
+  color: #000;
 }
 .input-address i {
   font-size: 20px;
@@ -158,10 +166,71 @@ h1 {
   font-weight: lighter;
   color: #fff;
 }
+.line a {
+  color: #fff;
+}
 
 .sign-in {
   text-decoration: underline;
 }
 .sign-in:hover {
   cursor: pointer;
+}
+
+.images {
+  margin-top: 450px;
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+
+  padding: 0px 0px 0px 40px;
+  /* justify-content: space-between; */
+}
+
+.first {
+  height: 270px;
+  width: 460px;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px 10px 40px 40px; */
+}
+.second {
+  height: 270px;
+  width: 460px;
+  margin: 0px 10px;
+
+  /* margin-left: 500px; */
+  /* padding: 10px 0px 40px 20px; */
+}
+.third {
+  height: 270px;
+  width: 460px;
+  margin: 0px 10px;
+
+  /* margin-left: 1000px; */
+  /* padding: 10px 0px 40px 20px; */
+  /* margin-right: 0px; */
+}
+
+.img {
+  width: 100%;
+}
+
+.card-head {
+  padding: 10px 0px 0px 0px;
+  text-align: start;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000;
+  margin: 0px;
+}
+.card-foot {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #000;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-weight: normal;
 }
