@@ -26,17 +26,22 @@ body {
   background-color: #fff;
 }
 .form-main {
-  margin-bottom: 500px;
+  background: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1206,h_633/v1658225144/assets/30/7d0851-aad0-4583-a029-f339b38a1a9f/original/SSU_hero_2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
 }
 .form {
+  padding: 30px 0px 30px 20px;
   border-style: solid;
-  margin: 0px 0px 500px 500px;
+  margin: 0px 50px 500px 500px;
   background-color: white;
   width: 400px;
 }
 
 .form-div {
-  padding: 30px 0px 30px 20px;
+  margin-top: 0px;
+  
 }
 
 .country-code {
